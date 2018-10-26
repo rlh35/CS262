@@ -1,0 +1,24 @@
+--8.1.a
+--SELECT * FROM Game ORDER BY time DESC;
+--8.1.b
+--SELECT * FROM Game WHERE time > (NOW() - interval '1 week');
+--8.1.c
+--SELECT * FROM Winner WHERE name IS NOT NULL;
+--8.1.d
+--SELECT winnerID FROM WinnerGame WHERE score > 2000;
+--8.1.e
+--SELECT * FROM Winner WHERE emailaddress LIKE '%gmail%';
+
+--8.2.a
+--SELECT score FROM WinnerGame 
+--JOIN Winner ON WinnerGame.winnerID=Winner.id 
+--WHERE Winner.id=2 ORDER BY DESC;
+--8.2.b
+--SELECT Winner.name FROM Winner JOIN WinnerGame ON WinnerGame.winnerID=Winner.id
+--JOIN Game ON WinnerGame.gameID=Game.id WHERE Game.time='2006-06-28 13:20:00' 
+--ORDER BY Winner.name DESC LIMIT 1;
+--8.2.c
+--Comparing two players with the same name but different ID numbers within the same table.
+--8.2.d
+--Joining a table to itself may be useful when you have a table of people with different
+--employment titles, and want to see who within the same table reports to who.
