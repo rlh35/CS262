@@ -1,0 +1,16 @@
+Lab 09
+------------------
+9.1.a	    There are 5 endpoints, implemented in the work.sh
+	  
+9.1.b.i	    JDBC
+9.1.b.ii.1  An SQL query references a relation within the database, whereas the JDBC Statement
+	    object only knows about the endpoints.
+9.1.b.ii.2  In SQL, a relation is a table storing data, a JDBC result set is contains only
+	    the result of the JDBC query, and a List<Player> is a Java list that contains
+	    the attributs of a player.
+9.1.b.iii   Used anytime the queried relation contains null or string values.
+	  
+9.1.c.i	    Allows for database manipulation using an object-oriented method.
+9.1.c.ii    This contains the data from one tuple in the Player table. The Player table,
+	    on the other hand, stores all of the data in the relation rather than just
+	    one tuple.
