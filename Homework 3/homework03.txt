@@ -1,0 +1,13 @@
+Homework 3
+-----------
+1.a	Yes. It uses the GET, PUT, POST and DELETE http commands to access the database. 
+	It also uses JSON formatting to create a stateless service accessed through a 
+	directory-structured URI.
+1.b	The GET command is the only one of the four basic HTTP commands that is nullipotent,
+	because there are no side effects to using it on the same data repeatedly. GET, UPDATE
+	and DELETE are all idempotent, meaning the same commands can be run repeatedly and
+	the results are the same every time.
+1.c	Yes. We're implementing our app in Java, which is an object oriented language, but 
+	we're connecting the functionality to a relational database, which is not object
+	oriented.
+1.d	I don't think so, no.

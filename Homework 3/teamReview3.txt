@@ -1,0 +1,14 @@
+Review of Team G
+by Ryan Holwerda
+--------------------
+2.a	Yes. Team G's Trello board shows sufficient activity.
+2.b	The UI model is a bit confusing at first glance. As an English reader, my eye is
+	naturally drawn to the upper left of the diagram, but that's not where the diagram
+	flow starts, which means that it takes more time to figure out what's going on than
+	it should. The domain model is nice and straight forward. Given what I know from the
+	vision statement and the presentation, the domain model is clear.
+2.c	It looks like there are 2-3 commits per week, which is satisfactory.
+2.d	I think the presentation went fairly well. A few of the presenters spoke softly or
+	too quickly, which made it a little hard to understand them. Despite that, though,
+	the presentation was engaging and interesting. I think they adequately conveyed all
+	the necessary information in a quick, concise way.
