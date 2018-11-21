@@ -1,0 +1,21 @@
+Lab 11
+-------------------
+Changes for Homework 1
+- Added Javadoc documentation for the onCreate() and calculate() methods 
+  in MainActivity.java.
+- Extracted 4 strings to string resources from the activity_main.xml file.
+- Ignored security warning for AndroidManifest.xml because app isn't going to be published
+  so no threats to security exist.
+- Ignored usability warning for AndroidManifest.xml about making app indexable by Google
+  search because this app will not be published.
+- Changed some variables to local instead of public variables due to their only being used
+  in the calculate() method.
+- Added hints for the two input text boxes.
+-----------------------
+Changes for Homework 2
+- Added Javadoc documentation to MainActivity.java, NetworkUtils.java, and PlayerLoader.java
+- Extracted 1 string to string resource from the content_main.xml file.
+- Ignored security warning for AndroidManifest.xml because app isn't going to be published.
+- Ignored usability warning for AndroidManifest.xml because app won't be published.
+----------------------------
+No changes for Homework 3 because there was no code for that assignment.

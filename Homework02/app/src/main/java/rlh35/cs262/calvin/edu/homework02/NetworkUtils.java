@@ -17,6 +17,11 @@ public class NetworkUtils {
     private static final String MAX_RESULTS = "maxResults";
     private static final String PRINT_TYPE = "printType";
 
+    /**
+     * Method gets the information about a player from the monopoly database
+     * @param queryString
+     * @return
+     */
     static String getPlayerInfo(String queryString) {
         HttpURLConnection urlConnection = null;
         BufferedReader reader = null;
@@ -64,7 +69,7 @@ public class NetworkUtils {
                 }
             }
             Log.d(LOG_TAG, playerJSONString);
-            return playerJSONString;
         }
+        return playerJSONString;
     }
 }

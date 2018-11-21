@@ -8,17 +8,28 @@ import android.support.v4.content.AsyncTaskLoader;
 public class PlayerLoader extends AsyncTaskLoader<String> {
     private String mFetchString;
 
+    /**
+     * I don't know what this method does.
+     */
     protected void onStartLoading() {
         super.onStartLoading();
         forceLoad();
     }
 
+    /**
+     * I don't know what this method does.
+     * @param context
+     * @param fetchString
+     */
     public PlayerLoader(@NonNull Context context, String fetchString) {
         super(context);
         mFetchString = fetchString;
     }
 
-
+    /**
+     * I don't know what this method does.
+     * @return
+     */
     @Nullable
     @Override
     public String loadInBackground() {

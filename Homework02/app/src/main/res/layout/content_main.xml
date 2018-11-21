@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_toLeftOf="@+id/fetch_button"
         android:inputType="numberSigned"
-        android:hint="Enter Player ID Number" />
+        android:hint="@string/enter_player_id_number" />
 
     <TextView
         android:id="@+id/player_info"

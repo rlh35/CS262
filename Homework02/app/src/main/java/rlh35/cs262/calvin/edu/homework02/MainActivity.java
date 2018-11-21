@@ -30,6 +30,12 @@ public class MainActivity extends AppCompatActivity
     EditText mIDInput;
     TextView mPlayerInfo;
 
+    /**
+     * This method runs when the activity is run, in this case when the app is run.
+     * It sets up the LoaderManager which works with the PlayerLoader class to retrieve
+     * information about players from the monopoly database.
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,6 +47,11 @@ public class MainActivity extends AppCompatActivity
         mPlayerInfo = (TextView) findViewById(R.id.player_info);
     }
 
+    /**
+     * I don't know what this method does.
+     * @param menu
+     * @return
+     */
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -48,6 +59,11 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
+    /**
+     * I don't know what this method does.
+     * @param item
+     * @return
+     */
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
@@ -63,9 +79,12 @@ public class MainActivity extends AppCompatActivity
         return super.onOptionsItemSelected(item);
     }
 
+    /**
+     * This method is supposed to retrieve information about players from the PlayerLoader.
+     * @param view
+     */
     public void fetchPlayer(View view) {
-        mPlayerInfo.setText("I can't figure out how to get the data from the database" +
-                " and display it here.");
+        mPlayerInfo.setText("I can't figure out how to get the data from the database and display it here.");
 
         /*String queryString = mIDInput.getText().toString();
         List<String> queries = new ArrayList<String>(3);
@@ -96,19 +115,30 @@ public class MainActivity extends AppCompatActivity
         }*/
     }
 
+    /**
+     * I don't know what this method does.
+     * @param i
+     * @param args
+     * @return
+     */
     @NonNull
     @Override
     public Loader<String> onCreateLoader(int i, @Nullable Bundle args) {
         return new PlayerLoader(this, args.getString("queryString"));
     }
 
+    /**
+     * I don't know what this method does.
+     * @param loader
+     * @param s
+     */
     @Override
     public void onLoadFinished(Loader<String> loader, String s) {
         try {
             JSONObject jsonObject = new JSONObject(s);
             JSONArray itemsArray = jsonObject.getJSONArray("items");
 
-            for(int i = 0; i<itemsArray.length(); i++) {
+            for (int i = 0; i < itemsArray.length(); i++) {
                 JSONObject person = itemsArray.getJSONObject(i);
                 String playerID = null;
                 JSONObject volumeInfo = person.getJSONObject("playerInfo");
@@ -130,6 +160,10 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
+    /**
+     * I don't know what this method does.
+     * @param loader
+     */
     @Override
     public void onLoaderReset(Loader<String> loader) {
 
