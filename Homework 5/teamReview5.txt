@@ -1,0 +1,20 @@
+Team G review
+-------------------
+The project management material for Team G shows a good amount of activity, although I 
+don't see many hours logged on Trello by Hamin or Josh. From what I can see on github,
+it looks like Chris did the majority of the commits, with not much by the other team
+members. That being said, I was not privy to everything that happened within their team 
+during this process, so I know that the numbers don't tell the whole story. From what 
+I witnessed of them during stakeholder meetings, presentations, and user testing, they 
+all seemed pretty involved, except Hamin, who I don't think I ever saw. 
+Their final presentation was very good, and I was impressed by the changes they had 
+made both since the last presentation, but even more so since the user testing a few 
+weeks ago. The presentation adequately showed the features of the app, and had me 
+wanting to install it on my own device. In regards to their presentation compared to 
+the other teams, I thought there were few that went better. They seemed composed and 
+knowledgeable, able to handle all the questions that came their way. 
+The final application was well designed and fully functional, as far as I know. I don't 
+know how much widespread use this app might get if it were published to the google play 
+store, but I could see myself using it to great benefit. I have been thrilled to follow 
+this team throughout the process and look forward to seeing where the project goes from 
+here.
